@@ -1,0 +1,71 @@
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 20px;
+}
+.home a{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+.conteinermain{
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    color:rgb(0, 174, 255);
+}
+.conteinermain h1{
+    color: rgb(0, 174, 255);
+    font-size: 64px;
+    position: relative;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+.ondas{
+    position: absolute;
+}
+.stake{
+    
+}
+.redes{
+    word-spacing: 30px;
+}
+.botoes{
+    word-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+#comprar{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-color: rgb(0, 174, 255);
+    margin-right: 30px;
+}
+#grafico{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-color: rgb(0, 174, 255);
+}
+#bonus{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-color: rgb(0, 174, 255);
+    margin-left: 30px;
+}
