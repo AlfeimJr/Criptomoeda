@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
     word-spacing: 20px;
 }
-.home a{
+.home1   a{
     text-decoration: none;
     color: rgb(0, 174, 255);
 }
@@ -23,15 +23,15 @@
     position: relative;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+    margin-top: 60px;
 }
 .ondas{
     position: absolute;
-}
-.stake{
     
 }
 .redes{
-    word-spacing: 30px;
+    width: 50%;
+    
 }
 .botoes{
     word-spacing: 10px;
@@ -68,4 +68,9 @@
     color: white;
     border-color: rgb(0, 174, 255);
     margin-left: 30px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
 }
